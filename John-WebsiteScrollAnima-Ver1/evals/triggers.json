@@ -1,0 +1,37 @@
+{
+  "skill": "john-websitescrollanima-ver1",
+  "test_cases": [
+    {
+      "input": "Use John-WebsiteScrollAnima-Ver1 for this product site",
+      "should_trigger": true
+    },
+    {
+      "input": "Build a cinematic scroll that pins the product and holds on each chapter",
+      "should_trigger": true
+    },
+    {
+      "input": "The exploded wall labels overlap the paragraph. Place them properly with leaders.",
+      "should_trigger": true
+    },
+    {
+      "input": "Add scroll-synced motion graphics around the product so the black field is not empty",
+      "should_trigger": true
+    },
+    {
+      "input": "Knock out the black background on the product stills so the rings show through",
+      "should_trigger": true
+    },
+    {
+      "input": "Make a todo dashboard with a sidebar",
+      "should_trigger": false
+    },
+    {
+      "input": "Design a 2D platformer character",
+      "should_trigger": false
+    },
+    {
+      "input": "Change only the hero wordmark spacing",
+      "should_trigger": false
+    }
+  ]
+}
