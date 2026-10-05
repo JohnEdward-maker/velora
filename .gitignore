@@ -5,6 +5,8 @@ artifacts
 attachments
 screenshots
 .grok/*
+!.grok/app-env.json
+!.grok/skills/
 !.grok/skills/
 .grok/skills/*
 !.grok/skills/john-websitescrollanima-ver1/

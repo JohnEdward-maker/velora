@@ -1,12 +1,9 @@
 # VELORA
 
-A pinned product scroll for The Still, a steel bottle. The stage stays still. Scroll opens the chapters, then holds.
+A pinned product scroll for The Still. Portfolio preview only. Nothing is saved on a server.
 
 ## Publish on Vercel
 
-1. Import this repository.
-2. Framework: TanStack Start (Vite).
-3. Build command: `npm run build`.
-4. Leave `DATABASE_URL` unset unless you attach Postgres. Without it, the bag stays in the browser.
+Import this repo. Framework: TanStack Start. Build command: `npm run build`.
 
-The hero is the opening poster. The story under it is the scroll.
+Do not add a database, `DATABASE_URL`, or Postgres. The bag stays in the browser. Sign-in is off.
