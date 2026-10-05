@@ -1,0 +1,17 @@
+node_modules
+.vercel
+.tanstack
+artifacts
+attachments
+screenshots
+.grok/*
+!.grok/skills/
+.grok/skills/*
+!.grok/skills/john-websitescrollanima-ver1/
+AGENTS.md
+AGENTS.project.md
+*.log
+.DS_Store
+.env
+.env.*
+.node_modules.lock

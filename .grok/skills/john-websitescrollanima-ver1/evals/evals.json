@@ -1,0 +1,36 @@
+{
+  "skill": "john-websitescrollanima-ver1",
+  "test_cases": [
+    {
+      "name": "new_product_scroll",
+      "input": "Build a John-WebsiteScrollAnima-Ver1 product scroll for a black ceramic cup. Chapters: whole, lip, exploded, side, buy.",
+      "assertions": [
+        "Creates a sticky 100dvh pin inside a tall track and eases progress with requestAnimationFrame at 0.18",
+        "Uses beat holds with plateaus, not a linear map from scroll to time",
+        "Runs knockout_black.py and does not crop the stills",
+        "Puts ghost type, ripples, both marquees, spine, and rail behind the product on #070707",
+        "Places exploded-part labels only on the right, one per piece, with a dashed leader",
+        "Does not restyle an existing hero"
+      ]
+    },
+    {
+      "name": "fix_empty_and_black_plate",
+      "input": "The scroll feels empty and the bottle photo has a black background covering the motion graphics. Use John-WebsiteScrollAnima-Ver1.",
+      "assertions": [
+        "Knocks out the studio plate with knockout_black.py while keeping canvas size",
+        "Adds the motion field from references/motion-field.md instead of more paragraphs",
+        "Does not switch the stage to white"
+      ]
+    },
+    {
+      "name": "fix_wall_labels",
+      "input": "On 02 The Wall the part labels look off and overlap the paragraph. Fix them in the John-WebsiteScrollAnima-Ver1 style.",
+      "assertions": [
+        "Removes labels from the left column",
+        "Aligns each label vertically with its piece on the right",
+        "Gives each label a name, a short caption, and a leader whose length matches the piece width",
+        "Deletes the right-hand paragraph that repeats the part names"
+      ]
+    }
+  ]
+}
