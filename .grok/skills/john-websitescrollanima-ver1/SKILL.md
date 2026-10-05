@@ -3,6 +3,11 @@ name: john-websitescrollanima-ver1
 description: "Build or revise a premium product-scroll site in the John-WebsiteScrollAnima-Ver1 style: sticky chapter pin, beat holds, knocked-out stills, motion field, and part callouts. Use when the user names this skill, asks for a cinematic product scroll, exploded wall labels, or scroll-synced motion graphics. Not for dashboards, games, or hero-only pages."
 type: workflow
 lifecycle: active
+user-invocable: true
+when-to-use: "John-WebsiteScrollAnima-Ver1, product scroll, exploded wall labels, knocked-out stills, cinematic chapter pin"
+metadata:
+  author: JohnEdward-maker
+  short-description: "John-WebsiteScrollAnima-Ver1 product scroll"
 ---
 
 # John-WebsiteScrollAnima-Ver1
